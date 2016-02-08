@@ -221,17 +221,18 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "saveplugin"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Telefire v5 - thankyou 
+    about_text = [[#Telefire v5 - #thankyou #very #mach
+شما را بخاطر انتخاب فایر تحسین میکنیم
 
-Admins
+#Admins_sudo
 @ashi_admin1_kaboos
 ]],
     help_text_realm = [[
