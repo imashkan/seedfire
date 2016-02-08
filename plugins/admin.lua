@@ -172,20 +172,18 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-	"^[!/](pm) (%d+) (.*)$",
-	"^[!/](import) (.*)$",
-	"^[!/](unblock) (%d+)$",
-	"^[!/](block) (%d+)$",
-	"^[!/](markread) (on)$",
-	"^[!/](markread) (off)$",
-	"^[!/](setbotphoto)$",
+	"^([Pp]m) (%d+) (.*)$",
+	"^([Ii]mport) (.*)$",
+	"^([Uu]nblock) (%d+)$",
+	"^([Bb]lock) (%d+)$",
+	"^([Mm]arkread) (on)$",
+	"^([Mm]arkread) (off)$",
+	"^([Ss]etbotphoto)$",
 	"%[(photo)%]",
-	"^[!/](contactlist)$",
-	"^[!/](dialoglist)$",
-	"^[!/](delcontact) (%d+)$",
-	"^[!/](whois) (%d+)$"
+	"^([Cc]ontactlist)$",
+	"^([Dd]ialoglist)$",
+	"^([Dd]elcontact) (%d+)$",
+	"^([Ww]hois) (%d+)$"
   },
   run = run,
 }
---By @imandaneshi :)
---https://github.com/SEEDTEAM/TeleSeed/blob/master/plugins/admin.lua
