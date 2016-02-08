@@ -438,8 +438,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/imashkan/seedfire.git
+cd seedfire
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
