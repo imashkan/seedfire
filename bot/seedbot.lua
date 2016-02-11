@@ -226,12 +226,13 @@ function create_config( )
     "admin",
     "feedback",
     "echo",
-    "servicegroup"
+    "welcome",
+    "spam"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[#Telefire v5 - #thankyou #very #mach
+    about_text = [[#Telefire #v5 - #thankyou #very #mach
 شما را بخاطر انتخاب فایر تحسین میکنیم
 
 #Admins_sudo
