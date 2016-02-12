@@ -227,7 +227,8 @@ function create_config( )
     "feedback",
     "echo",
     "welcome",
-    "spam"
+    "spam",
+    "info"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
