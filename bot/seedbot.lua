@@ -229,7 +229,8 @@ function create_config( )
     "welcome",
     "spam",
     "info",
-    "linkpv"
+    "linkpv",
+    "addplug"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
