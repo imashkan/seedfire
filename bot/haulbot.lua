@@ -234,7 +234,8 @@ function create_config( )
     "chuck_norris",
     "webshot",
     "google",
-    "calculator"
+    "calculator",
+    "boobs"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
