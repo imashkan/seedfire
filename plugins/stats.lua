@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'telefire' then -- Put everything you like :)
+  if matches[1]:lower() == 'telehaul' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /teleseed ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /telehaul ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -141,8 +141,8 @@ return {
     "^([Ss]tats)$",
     "^([Ss]tatslist)$",
     "^([Ss]tats) (group) (%d+)",
-    "^([Ss]tats) (telefire)",-- Put everything you like :)
-		"^([Tt]elefire)"-- Put everything you like :)
+    "^([Ss]tats) (telehaul)",-- Put everything you like :)
+		"^([Tt]elehaul)"-- Put everything you like :)
     }, 
   run = run
 }
