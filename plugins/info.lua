@@ -239,7 +239,7 @@ return {
 	"^([Ii][Nn][Ff][Oo])$",
 	"^([Ii][Nn][Ff][Oo]) (.*)$",
 	"^([Ss][Ee][Tt][Mm][Aa][Gg][Hh][Aa][Mm]) (%d+) (.*)$",
-	"^([Ss][Ee][Tt][Mm][Aa][Gh][Hh][Aa][Mm]) (.*)$",
+	"^([Ss][Ee][Tt][Mm][Aa][Gg][Hh][Aa][Mm]) (.*)$",
   },
   run = run
 }
