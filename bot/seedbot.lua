@@ -229,9 +229,10 @@ function create_config( )
     "spam",
     "linkpv",
     "tex",
-    "webshot",
+    "boobs",
     "google",
-    "calculator"
+    "calculator",
+    "info"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
