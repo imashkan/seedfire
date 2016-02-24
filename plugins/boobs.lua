@@ -63,8 +63,8 @@ return {
     "!butts: Get a butts NSFW image. 🔞"
   },
   patterns = {
-    "^([Mm]ame$)",
-    "^([Kk]oon$)"
+    "^([Mm]ame)$",
+    "^([Kk]oon)$"
   }, 
   run = run 
 }
