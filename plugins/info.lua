@@ -238,8 +238,8 @@ return {
   patterns = {
 	"^([Ii][Nn][Ff][Oo])$",
 	"^([Ii][Nn][Ff][Oo]) (.*)$",
-	"^([Ss][Ee][Tt][Mm][Aa][Gg][Hh][Aa][Mm]) (%d+) (.*)$",
-	"^([Ss][Ee][Tt][Mm][Aa][Gg][Hh][Aa][Mm]) (.*)$",
+	"^([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (%d+) (.*)$",
+	"^([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (.*)$",
   },
   run = run
 }
