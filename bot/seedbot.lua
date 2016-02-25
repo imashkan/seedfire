@@ -232,7 +232,8 @@ function create_config( )
     "boobs",
     "google",
     "calculator",
-    "info"
+    "info",
+    "plugins"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
@@ -406,8 +407,10 @@ will return group logs
 banlist
 will return group ban list
 
-نیازی به !و/نیست
+google [search]
+search google
 
+نیازی به !و/نیست
 #sudo_user @ashi_king_kaboos
 
 ]]
